@@ -1,15 +1,10 @@
 package com.xuecheng.framework.domain.cms;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 import lombok.ToString;
-import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-
 import java.util.Date;
-import java.util.List;
 
 /**
  * @Author: mrt.
@@ -23,8 +18,8 @@ import java.util.List;
 public class CmsSite {
 
     //站点ID
-    @Id
-    private String siteId;
+    /*@Id
+    private String siteId;*/
     //站点名称
     private String siteName;
     //站点名称
